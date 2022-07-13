@@ -1,0 +1,91 @@
+@media (max-width: 1199.98px){
+    .container{
+        max-width: 970px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .container{
+        max-width: 750px;
+    }
+    .corners{
+        height: auto;
+        width: auto;
+        padding: 0px;
+    }
+    .header{
+        min-height: auto;
+        max-height: 50px;
+    }
+    .header-menu{
+        font-size: 14px;
+    }
+    .logo-image{
+        width: 200px;
+    }
+    .profit{
+        grid: repeat(2, 11rem) / auto-flow 11rem;
+    }
+    .profit-title{
+        font-size: 48px;
+    }
+    .title{
+        font-size: 48px;
+    }
+}
+@media (max-width: 767.98px) {
+    .container{
+        max-width: none;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .content{
+        justify-content: space-around;
+    }
+    .header-menu{
+        display:none;
+        clear: right;
+        text-align: center;
+        width: 100%;
+        
+    }
+    label#hamburger{
+        display: block;
+    }
+    .profit{
+        grid: repeat(4, 9rem) / auto-flow 9rem;
+        align-self: center;
+    }
+    .profit-title{
+        font-size: 48px;
+    }
+    .title{
+        font-size: 36px;
+    }
+}
+
+@media (max-width: 575.98px){
+    .btn{
+        align-self: center;
+    }
+    .container{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .content{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .heading{
+        padding: 20px 0px 20px 0px;
+    }
+    .profit{
+        grid: repeat(2, 9rem) / auto-flow 9rem;
+        align-self: center;
+    }
+}
+
+@media screen and (max-width: 1200) {
+    div{background-color: red;}
+}   

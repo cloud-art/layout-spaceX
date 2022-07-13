@@ -5,12 +5,13 @@
 }
 
 .background{
+    /* max-height of picture - 660px */
     background-image: url(../images/background.png);
     background-repeat: no-repeat;
     background-position: top center;
     background-attachment: fixed;
     background-size: auto;
-    height: 100vh ;
+    height: 660px ;
 }
 
 .container{
@@ -21,21 +22,17 @@
 body{
     background-color: #1F1F1F;
 }
-
 .content{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    height: auto;
 }
 
 .heading{
     display: flex;
     flex-direction: column;
-    padding-top: 120px;
-}
-
-.profit{
-    display: flex;
-
+    /* padding-top: 120px; */
 }
 
 .title {
