@@ -71,7 +71,10 @@ label#hamburger{
     padding-bottom: 10px;
 }
 
-.header input[id="toggle"]:checked ~ .header-menu{
-    display: block;
+/* .header input[id="toggle"]:checked ~ .header-menu{ */
+    /* display: block; */
     /* position: absolute; */
+/* } */
+.header input[id="toggle"]:checked ~ .header-menu{
+    transform: translateX(0);
 }

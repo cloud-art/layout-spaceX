@@ -42,16 +42,42 @@
     .content{
         justify-content: space-around;
     }
+    .header{
+        justify-content: end;
+    }
     .header-menu{
-        display:none;
-        clear: right;
-        text-align: center;
-        width: 100%;
-        
+        background: rgba(31, 31, 31, 0.9);
+        height: 100vh;
+        max-width: 300px;
+        transform: translate(-150%);
+        display: flex;
+        flex-direction: column;
+        font-size: 16px;
+        justify-content: start;
+        padding-left: 35px;
+        padding-top: 100px;
+        transition: transform 0.5s ease-in-out;
+        box-shadow: 5px 0px 10px 0px rgba(92, 29, 0, 0.5);
+        width: 100px;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        z-index: 2;
+    }
+    .header-item{
+        padding-bottom: 10px;
+    }
+    .header-item a:hover{
+        padding-bottom: 3px;
     }
     label#hamburger{
-        display: block;
+        display:block;
+        position: absolute;
+        top: 7px;
+        left: 20px;
+        z-index: 5;
     }
+    
     .profit{
         grid: repeat(4, 9rem) / auto-flow 9rem;
         align-self: center;
@@ -80,6 +106,7 @@
     .heading{
         padding: 20px 0px 20px 0px;
     }
+
     .profit{
         grid: repeat(2, 9rem) / auto-flow 9rem;
         align-self: center;
